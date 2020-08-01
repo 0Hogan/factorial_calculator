@@ -21,7 +21,7 @@ int main() {
 	result = factorial(input);
 	printMirroredArray(result);
 	std::cout << "Number of trailing zeroes: " << trailingZeroes(result) << std::endl;
-	std::cout << "Total Number of digits: " << digits << std::endl;
+	std::cout << "Total number of digits: " << digits << std::endl;
 }
 
 int trailingZeroes(int arr[]) {
